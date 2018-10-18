@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\justi\\Desktop\\PyDataNYC\\./models/nlu\\default\\current\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\justi\\Desktop\\PyDataNYC\\./models/nlu\\default\\current\\intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "/home/juste/rasa-workshop-pydata-nyc/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/juste/rasa-workshop-pydata-nyc/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"

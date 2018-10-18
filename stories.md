@@ -11,7 +11,6 @@
   - utter_approve
 * affirm
   - utter_send_link
-  - utter_happy_reading
 * goodbye
   - utter_goodbye
 
@@ -22,7 +21,6 @@
   - action_paper_search
   - utter_approve
 * affirm+authors
-  - utter_one_moment
   - utter_send_link
   - utter_authors
 * thanks
@@ -48,7 +46,6 @@
 * affirm
   - utter_send_link
 * authors
-  - utter_one_moment
   - utter_authors
 * thanks
   - utter_happy_reading
@@ -63,7 +60,6 @@
   - action_paper_search
   - utter_approve
 * authors
-  - utter_one_moment
   - utter_authors
 * send_link
   - utter_send_link
@@ -80,7 +76,6 @@
   - action_paper_search
   - utter_approve
 * authors
-  - utter_one_moment
   - utter_authors
 * send_link
   - utter_send_link
@@ -99,11 +94,41 @@
   - action_paper_search
   - utter_approve
 * affirm+authors
-  - utter_one_moment
   - utter_send_link
   - utter_authors
-* send_link
+* thanks
+  - utter_happy_reading
+* goodbye
+  -utter_goodbye 
+  
+  
+## Suggestion path 8
+* greet
+  - utter_greet
+* paper_search
+  - utter_what_type
+* inform{"paper_type":"statistics"}
+  - action_paper_search
+  - utter_approve
+* affirm+authors
   - utter_send_link
+  - utter_authors
+* thanks
+  - utter_happy_reading
+* goodbye
+  -utter_goodbye   
+
+
+## Suggestion path 9
+* greet
+  - utter_greet
+* paper_search{"paper_type":"physics"}
+  - action_paper_search
+  - utter_approve
+* affirm
+  - utter_send_link
+* authors
+  - utter_authors
 * thanks
   - utter_happy_reading
 * goodbye

@@ -1,11 +1,4 @@
 {
-  "max_histories": [
-    5,
-    5
-  ],
-  "rasa_core": "0.11.11",
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
-  "python": "3.5.6",
   "action_fingerprints": {
     "action_listen": {
       "slots": [
@@ -16,7 +9,16 @@
       "slots": []
     }
   },
+  "rasa_core": "0.11.11",
+  "python": "3.6.5",
+  "max_histories": [
+    null,
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ]
