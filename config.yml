@@ -1,0 +1,10 @@
+
+language: "en"
+
+pipeline:
+- name: "tokenizer_whitespace"                              #defines how unstructured sentences will be tokenized
+- name: "ner_crf"                                           #defines the model which will be used for entity extraction
+- name: "intent_featurizer_count_vectors"                   #creates sentence representation
+- name: "intent_classifier_tensorflow_embedding"            #defines a classifier for intent classification
+  intent_tokenization_flag: true                            #sets the flag for intent label tokenization
+  intent_split_symbol: "+"                                  #defines the character on which intent labels should be tokenized

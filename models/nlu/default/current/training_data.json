@@ -1,0 +1,541 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello there",
+        "intent": "greet"
+      },
+      {
+        "text": "hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hello there",
+        "intent": "greet"
+      },
+      {
+        "text": "good morning",
+        "intent": "greet"
+      },
+      {
+        "text": "good evening",
+        "intent": "greet"
+      },
+      {
+        "text": "moin",
+        "intent": "greet"
+      },
+      {
+        "text": "hey there",
+        "intent": "greet"
+      },
+      {
+        "text": "let's go",
+        "intent": "greet"
+      },
+      {
+        "text": "hey dude",
+        "intent": "greet"
+      },
+      {
+        "text": "goodmorning",
+        "intent": "greet"
+      },
+      {
+        "text": "goodevening",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet"
+      },
+      {
+        "text": "cu",
+        "intent": "goodbye"
+      },
+      {
+        "text": "good by",
+        "intent": "goodbye"
+      },
+      {
+        "text": "cee you later",
+        "intent": "goodbye"
+      },
+      {
+        "text": "good night",
+        "intent": "goodbye"
+      },
+      {
+        "text": "good afternoon",
+        "intent": "goodbye"
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "have a nice day",
+        "intent": "goodbye"
+      },
+      {
+        "text": "see you around",
+        "intent": "goodbye"
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye"
+      },
+      {
+        "text": "yes",
+        "intent": "affirm"
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm"
+      },
+      {
+        "text": "of course",
+        "intent": "affirm"
+      },
+      {
+        "text": "that sounds good",
+        "intent": "affirm"
+      },
+      {
+        "text": "correct",
+        "intent": "affirm"
+      },
+      {
+        "text": "definitely",
+        "intent": "affirm"
+      },
+      {
+        "text": "absolutely",
+        "intent": "affirm"
+      },
+      {
+        "text": "sure",
+        "intent": "affirm"
+      },
+      {
+        "text": "yep",
+        "intent": "affirm"
+      },
+      {
+        "text": "no",
+        "intent": "deny"
+      },
+      {
+        "text": "never",
+        "intent": "deny"
+      },
+      {
+        "text": "I don't think so",
+        "intent": "deny"
+      },
+      {
+        "text": "don't like that",
+        "intent": "deny"
+      },
+      {
+        "text": "no way",
+        "intent": "deny"
+      },
+      {
+        "text": "not really",
+        "intent": "deny"
+      },
+      {
+        "text": "nope",
+        "intent": "deny"
+      },
+      {
+        "text": "definitely no",
+        "intent": "deny"
+      },
+      {
+        "text": "no no",
+        "intent": "deny"
+      },
+      {
+        "text": "Looking for papers about chatbots",
+        "entities": [
+          {
+            "end": 33,
+            "start": 25,
+            "entity": "paper_type",
+            "value": "chatbots"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Please suggest some interesting papers to read",
+        "intent": "paper_search"
+      },
+      {
+        "text": "Looking for some new papers about machine learning",
+        "entities": [
+          {
+            "end": 50,
+            "start": 34,
+            "entity": "paper_type",
+            "value": "machine learning"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Any recommendataions for statistics papers to read?",
+        "entities": [
+          {
+            "end": 35,
+            "start": 25,
+            "entity": "paper_type",
+            "value": "statistics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "I have some spare time and would like to read some mathematics papers.",
+        "entities": [
+          {
+            "end": 62,
+            "start": 51,
+            "entity": "paper_type",
+            "value": "mathematics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Looking for papers to read",
+        "intent": "paper_search"
+      },
+      {
+        "text": "Do you have new papers to recommend?",
+        "intent": "paper_search"
+      },
+      {
+        "text": "Would like to read some papers about physics.",
+        "entities": [
+          {
+            "end": 44,
+            "start": 37,
+            "entity": "paper_type",
+            "value": "physics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Please recommend some interesting papers about astronomy.",
+        "entities": [
+          {
+            "end": 56,
+            "start": 47,
+            "entity": "paper_type",
+            "value": "astronomy"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Looking for econometrics papers.",
+        "entities": [
+          {
+            "end": 24,
+            "start": 12,
+            "entity": "paper_type",
+            "value": "econometrics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Looking for papers in artificial intelligence",
+        "entities": [
+          {
+            "end": 45,
+            "start": 22,
+            "entity": "paper_type",
+            "value": "artificial intelligence"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Please share some papers to read",
+        "intent": "paper_search"
+      },
+      {
+        "text": "Looking for Physics to read.",
+        "entities": [
+          {
+            "end": 19,
+            "start": 12,
+            "entity": "paper_type",
+            "value": "Physics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Can you recommend me Mathematics?",
+        "entities": [
+          {
+            "end": 32,
+            "start": 21,
+            "entity": "paper_type",
+            "value": "Mathematics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Any interesting papers statistics you can recommend?",
+        "entities": [
+          {
+            "end": 33,
+            "start": 23,
+            "entity": "paper_type",
+            "value": "statistics"
+          }
+        ],
+        "intent": "paper_search"
+      },
+      {
+        "text": "Yes. Also, tell me who are the authors.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Yes, please. By the way, who are the authors of the paper?",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Sure. I woud also like to know the authors.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Yes! And a list of authors please.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Definitely. Also, please share who are the authors.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Yes. Can I also see who the authors are?",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Sure. Also, please tell me who are the authors.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Sure. Can you give me a list of authors as well?",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Yes. Tell me who wrote this paper as well.",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Sure. Who wrote this paper?",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Sounds good. I am also interested in who wrote this paper?",
+        "intent": "affirm+authors"
+      },
+      {
+        "text": "Tell me who are the authors first",
+        "intent": "authors"
+      },
+      {
+        "text": "Please tell me the who are the authors",
+        "intent": "authors"
+      },
+      {
+        "text": "I would like to see who are the authors first",
+        "intent": "authors"
+      },
+      {
+        "text": "Before I decide I would like to see the authors",
+        "intent": "authors"
+      },
+      {
+        "text": "Show me the authors please",
+        "intent": "authors"
+      },
+      {
+        "text": "Can I see the authors first?",
+        "intent": "authors"
+      },
+      {
+        "text": "Who wrote this paper?",
+        "intent": "authors"
+      },
+      {
+        "text": "I would like to know who is the author of this paper.",
+        "intent": "authors"
+      },
+      {
+        "text": "Tell me who wrote the paper.",
+        "intent": "authors"
+      },
+      {
+        "text": "Who is the author?",
+        "intent": "authors"
+      },
+      {
+        "text": "Do you know who is the author of the paper?",
+        "intent": "authors"
+      },
+      {
+        "text": "Who wrote it?",
+        "intent": "authors"
+      },
+      {
+        "text": "Do you know the author?",
+        "intent": "authors"
+      },
+      {
+        "text": "Send me a link to the paper",
+        "intent": "send_link"
+      },
+      {
+        "text": "Can I get a link",
+        "intent": "send_link"
+      },
+      {
+        "text": "Send me a link",
+        "intent": "send_link"
+      },
+      {
+        "text": "Please send me a link so I can read it",
+        "intent": "send_link"
+      },
+      {
+        "text": "Send me a link to it please",
+        "intent": "send_link"
+      },
+      {
+        "text": "I would like to get a link",
+        "intent": "send_link"
+      },
+      {
+        "text": "about statistics",
+        "entities": [
+          {
+            "end": 16,
+            "start": 6,
+            "entity": "paper_type",
+            "value": "statistics"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "maybe mathematics",
+        "entities": [
+          {
+            "end": 17,
+            "start": 6,
+            "entity": "paper_type",
+            "value": "mathematics"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "about geography",
+        "entities": [
+          {
+            "end": 15,
+            "start": 6,
+            "entity": "paper_type",
+            "value": "geography"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "for machine learning",
+        "entities": [
+          {
+            "end": 20,
+            "start": 4,
+            "entity": "paper_type",
+            "value": "machine learning"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "about differentiation",
+        "entities": [
+          {
+            "end": 21,
+            "start": 6,
+            "entity": "paper_type",
+            "value": "differentiation"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "maybe about calculus",
+        "entities": [
+          {
+            "end": 20,
+            "start": 12,
+            "entity": "paper_type",
+            "value": "calculus"
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "thanks",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank you",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank you very much",
+        "intent": "thanks"
+      },
+      {
+        "text": "thanks a lot",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank you so much",
+        "intent": "thanks"
+      },
+      {
+        "text": "thank you loads",
+        "intent": "thanks"
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": [],
+    "lookup_tables": []
+  }
+}

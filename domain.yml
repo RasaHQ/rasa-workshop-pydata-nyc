@@ -1,0 +1,60 @@
+
+
+intents:
+- greet
+- goodbye
+- paper_search
+- inform
+- affirm
+- affirm+authors
+- authors
+- thanks
+- deny
+- send_link
+
+slots:
+  paper_type:
+    type: text
+  link:
+    type: text
+  authors:
+    type: text
+    
+entities:
+- paper_type
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_send_link
+- utter_one_moment
+- utter_what_type
+- utter_happy_reading
+- utter_authors
+- utter_approve
+- action_paper_search
+
+templates:
+  utter_greet:
+  - text: "Hey! I am paper search assistant. How can I help"
+
+  utter_goodbye:
+  - text: "Have a great day!"
+
+  utter_send_link:
+  - text: "Here is a link: {link}"
+  
+  utter_one_moment:
+  - text: "One moment."
+  
+  utter_what_type:
+  - text: "What type of paper would you like me to find?"
+  
+  utter_happy_reading:
+  - text: "Enjoy your reading."
+  
+  utter_approve:
+  - text: "Would you like to read this paper? I can send you a link."
+  
+  utter_authors:
+  - text: "Here is a list of authors: {authors}."

@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_affirm+authors",
+    "intent_authors",
+    "intent_deny",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform",
+    "intent_paper_search",
+    "intent_send_link",
+    "intent_thanks",
+    "entity_paper_type",
+    "slot_authors_0",
+    "slot_link_0",
+    "slot_paper_type_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_send_link",
+    "prev_utter_one_moment",
+    "prev_utter_what_type",
+    "prev_utter_happy_reading",
+    "prev_utter_authors",
+    "prev_utter_approve",
+    "prev_action_paper_search"
+  ]
+}

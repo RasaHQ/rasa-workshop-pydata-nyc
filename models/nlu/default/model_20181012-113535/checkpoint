@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\justi\\Downloads\\PyDataNYC\\PyDataNYC\\models/nlu\\new\\model_20181012-113535\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\justi\\Downloads\\PyDataNYC\\PyDataNYC\\models/nlu\\new\\model_20181012-113535\\intent_classifier_tensorflow_embedding.ckpt"
