@@ -7,11 +7,11 @@ This repo contains the code for my workshop at PyData NYC 2018.
 To follow this demo, you will need Rasa NLU, Rasa Core and spacy installed. You can do it by running:
 
 
-`python} -m pip install -U rasa_core==0.11.11 rasa_nlu==0.13.6`
+`python -m pip install -U rasa_core==0.11.11 rasa_nlu==0.13.6`
 
 You will also need an additional one additional dependency:
 
-`python} -m pip install sklearn_crfsuite`
+`python -m pip install sklearn_crfsuite`
 
 
 ## How to use this repository
