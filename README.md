@@ -1,6 +1,6 @@
 # PyData NYC 2018 - Going beyond “Sorry, I didn’t get that”: building AI assistants that scale using machine learning
 
-This repo contains the code for my workshop at PyData NYC 2018.
+This repo contains the code for my workshop at PyData NYC 2018. The slides of this talk can be found [here](https://www.slideshare.net/JustinaPetraityt/going-beyond-sorry-i-didnt-get-that-building-ai-assistants-that-scale-using-machine-learning).
 
 ## Installation
 
